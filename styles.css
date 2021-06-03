@@ -74,7 +74,7 @@
     padding: 0 1rem;
     
     /* play with top padding as needed */
-    padding-top: 12px;
+    /* padding-top: 12px; */
     width: 100%;
 }
 
@@ -92,6 +92,10 @@
     background: red;
     color: #131313;
 }
+
+/* #call {
+    justify-content: center;
+} */
 
 .btn:hover {
     color: #fff;
