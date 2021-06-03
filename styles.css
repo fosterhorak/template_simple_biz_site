@@ -336,9 +336,10 @@
     border-radius: 4px;
 }
 
-.main_btn:hover{
-    /* color: purple; */
-}
+/* .main_btn:hover{
+    color: purple;
+} */
+
 .main_btn:hover:after{
     width: 100%;
 }
@@ -361,10 +362,6 @@
 
 .fa-layer-group, .fa-users {
     font-size: 14rem;
-}
-
-#card-2 {
-    background: palevioletred;
 }
 
 @media screen and (max-width: 1100px) {
@@ -434,7 +431,232 @@
     }
     
 }
-
-
 /* end section2 styling */
+
+
+/* section3 styling */
+.section3 {
+    background: #131313;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10rem 0;
+}
+
+.section3 h1 {
+    color: red;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+}
+
+.section3_wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.section3_card {
+    margin: 10px;
+    height: 425px;
+    width: 300px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: linear-gradient(to right, cyan 0%, peachpuff 100%);
+    transition: 0.3s ease-in;
+}
+
+.section3_card:nth-child(2) {
+    background-image: linear-gradient(to right, cyan 0%, palevioletred 100%);
+}
+.section3_card:nth-child(3) {
+    background-image: linear-gradient(to right, cyan 0%, lime 100%);
+}
+.section3_card:nth-child(4) {
+    background-image: linear-gradient(to right, cyan 0%, orange 100%);
+}
+
+.section3_card h2{
+    text-align: center;
+}
+
+.section3_card p{
+    text-align: center;
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+.card_btn {
+    display: flex;
+    justify-content: center;    
+    margin-top: 16px;
+}
+
+.card_btn button {
+    color: #fff;
+    padding: 14px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #131313;
+    font-size: 1rem;
+}
+
+.card_btn button:hover {
+    cursor: pointer;
+}
+.card_btn:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+    .section3_wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section3_wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* end section3 styling */
+
+
+/* section4 styling */
+.section4 {
+    background: #131313;
+    padding: 10rem 0;
+}
+
+.section4_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.section4_content {
+    color: #fff;
+    width: 100%;
+}
+.section4_content h1{
+    font-size: 2rem;
+    margin-bottom: 32px;
+}
+.section4_content h2{
+    font-size: 4rem;
+}
+.section4_content p{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+
+.section4_img-container {
+    text-align: center;
+}
+
+.section4_img-card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: linear-gradient(to right, cyan 0%, peachpuff 100%);
+}
+
+#card-2 {
+    background-image: linear-gradient(to right, cyan 0%, lime 100%);
+}
+
+@media screen and (max-width: 1100px) {
+    .section4_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90%;
+    }
+
+    .section4_img-container {
+        display: flex;
+        justify-content: center;
+    }
+    .section4_img-card {
+        height: 425px;
+        width: 425px;
+    }
+    .section4_content {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    .section4_content h1 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+    .section4_content h2 {
+        font-size: 3rem;
+    }
+    .section4_content p {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+    .section4_img-card {
+        height: 250px;
+        width: 250px;
+    }
+
+    .fa-users, .fa-layer-group {
+        font-size: 4rem;
+    }
+
+    .section4_content h1 {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+    .section4_content h2 {
+        font-size: 2rem;
+    }
+    .section4_content p {
+        font-size: 2rem;
+        margin-top: 1.5rem;
+    }
+    
+}
+/* end section4 styling */
+
+
+
+
+
+
+/* footer styling */
+
+/* end footer styling */
 
