@@ -656,6 +656,230 @@
 /* end section4 styling */
 
 
+/* section5 styling */
+.section5 {
+    background: gray;
+    padding: 10rem 0;
+}
+
+.section5_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.section5_content {
+    color: #fff;
+    width: 100%;
+    align-self: center;
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.section5_content h1{
+    font-size: 2rem;
+    margin-bottom: 32px;
+}
+.section5_content h2{
+    font-size: 4rem;
+}
+.section5_content p{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+    .section5_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90%;
+    }
+
+    .section5_content {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    .section5_content h1 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+    .section5_content h2 {
+        font-size: 3rem;
+    }
+    .section5_content p {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .section5_content h1 {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+    .section5_content h2 {
+        font-size: 2rem;
+    }
+    .section5_content p {
+        font-size: 2rem;
+        margin-top: 1.5rem;
+    }
+    
+}
+/* end section5 styling */
+
+/* section6 styling */
+.section6 {
+    background: #131313;
+    padding: 10rem 0;
+}
+
+.section6_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.section6_content {
+    color: #fff;
+    width: 100%;
+}
+.section6_content h1{
+    font-size: 2rem;
+    margin-bottom: 32px;
+}
+.section6_content h2{
+    font-size: 4rem;
+}
+.section6_content p{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+
+.section6_img-container {
+    text-align: center;
+}
+
+.section6_img-card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: linear-gradient(to right, cyan 0%, peachpuff 100%);
+}
+
+#card-2 {
+    background-image: linear-gradient(to right, cyan 0%, lime 100%);
+}
+
+@media screen and (max-width: 1100px) {
+    .section6_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90%;
+    }
+
+    .section6_img-container {
+        display: flex;
+        justify-content: center;
+    }
+    .section6_img-card {
+        height: 425px;
+        width: 425px;
+    }
+    .section6_content {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    .section6_content h1 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+    .section6_content h2 {
+        font-size: 3rem;
+    }
+    .section6_content p {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+    .section6_img-card {
+        height: 250px;
+        width: 250px;
+    }
+
+    .fa-users, .fa-layer-group {
+        font-size: 4rem;
+    }
+
+    .section6_content h1 {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+    .section6_content h2 {
+        font-size: 2rem;
+    }
+    .section6_content p {
+        font-size: 2rem;
+        margin-top: 1.5rem;
+    }
+    
+}
+/* end section6 styling */
+
+
 /* footer styling */
 .footer {
     background-color: red;
