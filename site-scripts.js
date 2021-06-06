@@ -26,7 +26,7 @@ const highlightMenu = () => {
     const selection6 = document.querySelector('#section6-link');
 
     let scrollPos = window.scrollY;
-    console.log(scrollPos);
+    // console.log(scrollPos);
 
     let section1_2Break = 550;
     let section2_3Break = 1400;

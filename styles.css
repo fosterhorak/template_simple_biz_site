@@ -664,7 +664,7 @@
 
 .section5_container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -679,7 +679,10 @@
     color: #fff;
     width: 100%;
     align-self: center;
+    text-align: center;
+
 }
+
 
 .iframe-container {
     position: relative;
@@ -713,6 +716,10 @@
 
 
 @media screen and (max-width: 1100px) {
+    .section5 {
+        padding: 5rem 0;
+    }
+
     .section5_container {
         display: grid;
         grid-template-columns: 1fr;
@@ -722,6 +729,7 @@
         margin: 0 auto;
         height: 90%;
     }
+
 
     .section5_content {
         text-align: center;
@@ -742,7 +750,9 @@
 }
 
 @media screen and (max-width: 480px) {
-
+    .section5 {
+        padding: 3rem 0;
+    }
     .section5_content h1 {
         font-size: 2rem;
         margin-top: 3rem;
@@ -754,6 +764,8 @@
         font-size: 2rem;
         margin-top: 1.5rem;
     }
+
+
     
 }
 /* end section5 styling */
