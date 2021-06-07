@@ -802,11 +802,22 @@
     margin-bottom: 32px;
 }
 
+    /* start carousel css */
 .carousel-item {
     height: 32rem;
     background: green;
+    position: relative;
 }
 
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+    /* end start carousel css */
 
 .section6_content h2{
     font-size: 4rem;

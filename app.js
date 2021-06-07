@@ -36,7 +36,16 @@ const highlightMenu = () => {
 
 
     // adds 'highlight' class to my menu items 
-    if (window.innerWidth > 960 && scrollPos < section1_2Break) {
+    if (window.innerWidth > 960 && scrollPos <= 1) {
+        selection1.classList.remove('highlight');
+        selection2.classList.remove('highlight');
+        selection3.classList.remove('highlight');
+        selection4.classList.remove('highlight');
+        selection5.classList.remove('highlight');
+        selection6.classList.remove('highlight');
+        return;
+        
+    }   else if (window.innerWidth > 960 && scrollPos < section1_2Break) {
         selection1.classList.add('highlight');
         selection2.classList.remove('highlight');
         selection3.classList.remove('highlight');
